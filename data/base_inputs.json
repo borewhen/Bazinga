@@ -1,0 +1,34 @@
+{
+  "assumptions": {
+    "supply_cargo_units": 20,
+    "boiloff_rate_per_1000nm": 0.0015,
+    "freight_cost_per_nm_per_unit": 0.02,
+    "variable_cost_per_unit": 5.0,
+    "carbon_cost_per_unit": 0.0,
+    "risk_tolerance": 0.1
+  },
+  "prices_usd_per_unit": {
+    "SLNG": 12.0,
+    "JP": 14.0,
+    "CN": 11.0
+  },
+  "counterparty_risks": {
+    "SLNG": {"rating": "AA", "credit_limit": 50.0},
+    "JP": {"rating": "AAA", "credit_limit": 100.0},
+    "CN": {"rating": "A", "credit_limit": 30.0}
+  },
+  "demand_elasticity": {
+    "SLNG": -0.3,
+    "JP": -0.4,
+    "CN": -0.6
+  },
+  "seasonal_factors": {
+    "winter": {"SLNG": 1.2, "JP": 1.5, "CN": 1.3},
+    "summer": {"SLNG": 0.8, "JP": 0.7, "CN": 0.9}
+  },
+  "market_volatility": {
+    "SLNG": 0.15,
+    "JP": 0.20,
+    "CN": 0.25
+  }
+}

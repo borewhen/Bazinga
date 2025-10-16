@@ -1,0 +1,4 @@
+name,code,distance_nm,monthly_capacity_cargo,handling_fee_per_unit
+Singapore,SLNG,600,10,0.25
+Japan (JKM),JP,1800,12,0.3
+China,CN,1500,9,0.28
